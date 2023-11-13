@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="operater"></div>
+        <div id="total"><span>0</span></div>
+        <div class="row1 row">
+            <button onclick="show()" class="box" id="clear">C</button>
+            <button onclick="show()" class="box" id="clear-entry">CE</button>
+            <button class="box" id="percentage">%</button>
+            <button class="box" id="divide">/</button>
+        </div>
+        <div class="row2 row">
+            <button onclick="show('7'), showMeResult('7')" class="box" id="7">7</button>
+            <button onclick="show('8'), showMeResult('8')" class="box" id="8">8</button>
+            <button onclick="show('9'), showMeResult('8')" class="box" id="9">9</button>
+            <button class="box" id="times">X</button>
+        </div>
+        <div class="row3 row">
+            <button onclick="show('4'), showMeResult('4')" class="box" id="4">4</button>
+            <button onclick="show('5'), showMeResult('5')" class="box" id="5">5</button>
+            <button onclick="show('6'), showMeResult('6')" class="box" id="6">6</button>
+            <button class="box" id="mines">-</button>
+        </div>
+        <div class="row4 row">
+            <button onclick="show('1'), showMeResult('1')" class="box" id="1">1</button>
+            <button onclick="show('2'), showMeResult('2')" class="box" id="2">2</button>
+            <button onclick="show('3'), showMeResult('3')" class="box" id="3">3</button>
+            <button class="box" id="plus">+</button>
+        </div>
+        <div class="row5 row">
+            <button onclick="show('0'),  showMeResult('3')" class="box" id="zero">0</button>
+            <button onclick="show('.')" class="box" id="point">.</button>
+            <button class="box" id="equal">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
